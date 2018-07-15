@@ -12,8 +12,9 @@ describe('Visting homepage', function() {
 
 
 describe('Homepage got right content', function() {
-  it('finds the content "FINANCIAL TIMES "', function() {
+  it('finds the content "Theresa May "', function() {
     cy.visit('https://headlines-financial-times.herokuapp.com/')
+    cy.contains('Theresa May')
   });
 });
 
@@ -24,11 +25,8 @@ describe('search function', function() {
   });
 });
 
-describe('Navigates to search page', function() {
-  it("clicking 'search' navigates to a new url", function() {
+describe("should display today's headlines", function() {
+  it("finds content 'Trump'", function() {
     cy.visit('https://headlines-financial-times.herokuapp.com/')
-    cy.get('#search').type('Morocco')
-
-    cy.url().should('include', '/search/search=morocco')
   })
 })
