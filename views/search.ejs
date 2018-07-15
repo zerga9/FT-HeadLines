@@ -6,6 +6,16 @@
 </head>
 <body>
   <h2>FINANCIAL TIMES SEARCH RESULTS</h2>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- The form -->
+  <form class="example" action="/search">
+    <input type="text" name="search" placeholder="Search.." name="search">
+    <button type="submit"><i class="fa fa-search"></i></button>
+  </form>
+  <a class="home" href="/" title="all headlines">
+ 						<span class="home">All headlines</span>
+ 					</a>
 
   <ul><% for(var i=0; i<articles.length; i++) {%>
     <p>

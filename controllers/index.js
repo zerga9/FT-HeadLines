@@ -24,16 +24,15 @@ const allArticles = {
   json: true
 };
 
-router.get('/', (req, res) =>{
+router.get('/', (req,res) => {
   request(allArticles)
   .then(function (response) {
     let articles = response.results[0].results;
 
-    res.render('index', { title: 'FT HeadLines',
-    articles : articles
-    });
-  });
-
+    res.render('index',
+     { title: 'FT HeadLines',
+      articles : articles} );
+  })
 });
 
 module.exports = router;
