@@ -3,3 +3,9 @@ describe('My First Test', function() {
     expect(true).to.equal(true)
   });
 });
+
+describe('Visting homepage', function() {
+  it('Visits homepage', function() {
+    cy.visit('https://headlines-financial-times.herokuapp.com/')
+  });
+});

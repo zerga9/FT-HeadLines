@@ -5,3 +5,6 @@ src/Song.js
 spec/PlayerSpec.js
 spec/SpecHelper.js
 .env
+spec
+cypress/integration/examples
+lib
