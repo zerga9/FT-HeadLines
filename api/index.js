@@ -3,6 +3,7 @@ const apiUrl =
 
 const apiActions = {};
 
+
 apiActions.fetchSearch = req => {
 
   const qs = req && req.query && req.query.search ? req.query.search : '';
@@ -19,7 +20,7 @@ apiActions.fetchSearch = req => {
         curations: ['ARTICLES'],
       },
       resultContext: {
-        maxResults: 10,
+        maxResults: 100,
         aspects: ['title', 'lifecycle', 'location', 'summary', 'editorial'],
       },
     },
