@@ -9,3 +9,10 @@ describe('Visting homepage', function() {
     cy.visit('https://headlines-financial-times.herokuapp.com/')
   });
 });
+
+
+describe('Homepage got right content', function() {
+  it('finds the content "FINANCIAL TIMES "', function() {
+    cy.visit('https://headlines-financial-times.herokuapp.com/')
+  });
+});
