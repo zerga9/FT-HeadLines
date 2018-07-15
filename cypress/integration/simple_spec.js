@@ -23,3 +23,12 @@ describe('search function', function() {
     cy.contains('Search')
   });
 });
+
+describe('Navigates to search page', function() {
+  it("clicking 'search' navigates to a new url", function() {
+    cy.visit('https://headlines-financial-times.herokuapp.com/')
+    cy.get('#search').type('Morocco')
+
+    cy.url().should('include', '/search/search=morocco')
+  })
+})
