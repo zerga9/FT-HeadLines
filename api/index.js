@@ -1,11 +1,10 @@
 const apiUrl =
   'http://api.ft.com/content/search/v1?apiKey=' + process.env.FT_API_KEY;
 
-const apiActions = {};
+var apiActions = {};
 
 apiActions.fetchSearch = req => {
-  // Check if we have a `req.query.q`
-  // TODO: Handle this a bit more gracefully - maybe using lodash?
+
   const qs = req && req.query && req.query.search ? req.query.search : '';
 
   return {
