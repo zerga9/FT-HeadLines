@@ -16,3 +16,10 @@ describe('Homepage got right content', function() {
     cy.visit('https://headlines-financial-times.herokuapp.com/')
   });
 });
+
+describe('search function', function() {
+  it('finds search icon', function() {
+    cy.visit('https://headlines-financial-times.herokuapp.com/')
+    cy.contains('Search')
+  });
+});
