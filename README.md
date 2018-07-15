@@ -4,7 +4,7 @@
 
 ### Approach
 
-I first obtained an API Key from https://developer.ft.com/ and followed the setup.
+I first obtained an API Key from https://developer.ft.com and followed the setup.
 I made sure I can hit the API by using PostMan and then started on the Node API to make sure I could again hit the API and get a request.
 
 Lay-out the basic front-end to make sure the basic styling and elements are in place.
@@ -44,3 +44,12 @@ As a User
 So I can see all the headlines containing my submitted keyword
 I would like to be navigated to a page with the search-results
 ```
+
+### Technologies
+
+* JavaScript
+* Node.js
+* Express
+* Origami-components
+* Cypress
+* Heroku for deployment
