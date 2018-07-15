@@ -1,7 +1,7 @@
 const apiUrl =
   'http://api.ft.com/content/search/v1?apiKey=' + process.env.FT_API_KEY;
 
-var apiActions = {};
+const apiActions = {};
 
 apiActions.fetchSearch = req => {
 
