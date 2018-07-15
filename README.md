@@ -4,12 +4,28 @@
 
 ### Approach
 
-I first obtained an API Key from https://developer.ft.com and followed the setup.
+* I first obtained an API Key from https://developer.ft.com and followed the setup.
 I made sure I can hit the API by using PostMan and then started on the Node API to make sure I could again hit the API and get a request.
 
-Lay-out the basic front-end to make sure the basic styling and elements are in place.
+* Diagrammed out how the program should interact with the user and the API.
+```
+user                         program                              API
+  |                               |                                   |
+  |       access                  |      request  articles            |
+  | ----------------------------->|---------------------------------->|
+  |      shows articles           |      responds with article        |
+  |<------------------------------|<----------------------------------|
+  |                               |                                   |
+```
 
-Hooked up the search input form to hit the api on submit and handle the response to update the front-end with any response so I could catch any errors.
+* Lay-out the basic front-end to make sure the basic styling and elements are in place.
+
+* Hooked up the search input form to hit the api on submit and handle the response to update the front-end with any response so I could catch any errors.
+
+* Research Origami-components and implemented to the header of the website
+
+* Research Heroku, because first time to deploy on Heroku. This took a while, because after a lot of working out found out that I needed to configure Heroku for my API key.
+
 
 ### Instructions
 
@@ -53,3 +69,5 @@ I would like to be navigated to a page with the search-results
 * Origami-components
 * Cypress
 * Heroku for deployment
+
+###
