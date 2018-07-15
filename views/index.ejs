@@ -5,6 +5,23 @@
   <title>HEADLINES FINANCIAL TIMES</title>
 </head>
 <body>
-  <h2>Here will be the headlines of the Financial Times</h2>
+  <h2>FINANCIAL TIMES HEADLINES</h2>
+  <ul><% for(var i=0; i<articles.length; i++) {%>
+    <p>
+    <ul>
+      <b>
+			  <a href=<%=articles[i].location.uri %> target="_blank">
+				  <%= articles[i].title.title %>
+			  </a>
+      </b>
+    <br>
+		<%= articles[i].summary.excerpt %>...
+		<br>
+		<i><%= articles[i].editorial.byline %></i>
+  </p>
+			</ul>
+			<% } %>
+	</ul>
+
 </body>
 </html>
