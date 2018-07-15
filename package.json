@@ -2,6 +2,9 @@
   "name": "ft-headlines",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node": "8.11.1"
+  },
   "main": "app.js",
   "directories": {
     "lib": "lib"
@@ -10,6 +13,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
   "author": "me",
   "license": "ISC",
   "dependencies": {
