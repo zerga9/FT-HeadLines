@@ -10,7 +10,7 @@ router.get('/search', (req,res) => {
     .then(function(response) {
       let articles = response.results[0].results;
 
-      res.render('search', {
+      res.render('index', {
         title: 'FT HeadLines',
         articles: articles,
       });
