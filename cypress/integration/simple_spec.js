@@ -28,11 +28,21 @@ describe('search function', function() {
 describe("should display today's headlines", function() {
   it("finds content 'Trump'", function() {
     cy.visit('https://headlines-financial-times.herokuapp.com/')
+    cy.contains('Trump')
   })
 })
 
 describe("should display today's headlines", function() {
-  it("finds content 'Trump'", function() {
+  it("finds content 'Brexit'", function() {
     cy.visit('https://headlines-financial-times.herokuapp.com/')
+    cy.contains('Brexit')
   })
+})
+
+describe('Financial Times', function () {
+  it('.should() - assert that <title> is correct', function () {
+    cy.visit('https://headlines-financial-times.herokuapp.com/')
+    cy.title().should('include', 'FINANCIAL TIMES')
+  })
+
 })

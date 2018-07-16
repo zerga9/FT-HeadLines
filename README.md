@@ -5,7 +5,7 @@
 ### Approach
 
 * I first obtained an API Key from https://developer.ft.com and followed the setup.
-I made sure I can hit the API by using PostMan and then started on the Node API to make sure I could again hit the API and get a request.
+I made sure I can hit the API and tested the API by using PostMan and then started on the Node API to make sure I could again hit the API and get a request.
 
 * Diagrammed out how the program should interact with the user and the API.
 ```
