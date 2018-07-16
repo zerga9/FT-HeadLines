@@ -46,3 +46,17 @@ describe('Financial Times', function () {
   })
 
 })
+
+describe('Search', function(){
+  it('can search for keywords', function() {
+    cy.visit('https://headlines-financial-times.herokuapp.com/search?search=morocco')
+    cy.contains('Morocco')
+  });
+});
+
+describe('Search', function(){
+  it('can search for keywords', function() {
+    cy.visit('https://headlines-financial-times.herokuapp.com/search?search=dogs')
+    cy.contains('dogs')
+  });
+});
