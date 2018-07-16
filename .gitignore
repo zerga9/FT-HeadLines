@@ -1,10 +1,2 @@
 node_modules
-jasmine-standalone-3.1.0.zip
-src/Player.js
-src/Song.js
-spec/PlayerSpec.js
-spec/SpecHelper.js
 .env
-spec
-cypress/integration/examples
-lib
