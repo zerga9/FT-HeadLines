@@ -70,4 +70,9 @@ I would like to be navigated to a page with the search-results
 * Cypress
 * Heroku for deployment
 
-### 
+### Still to do
+
+* Pagination
+* Local Storage
+* Get the favicon icon working!
+* More testing
