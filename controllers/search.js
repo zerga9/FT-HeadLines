@@ -1,8 +1,8 @@
-var express = require('express');
-var request = require('request-promise');
-var router = express.Router();
+const express = require('express');
+const request = require('request-promise');
+const router = express.Router();
 
-var apiActions = require('../api/index');
+const apiActions = require('../api/index');
 
 router.get('/search', (req,res) => {
   request(apiActions.fetchSearch(req))
