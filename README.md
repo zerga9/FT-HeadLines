@@ -75,4 +75,5 @@ I would like to be navigated to a page with the search-results
 * Pagination
 * Local Storage
 * Get the favicon icon working!
-* More testing
+* More research in testing api
+* Use SASS
