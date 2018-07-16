@@ -11,7 +11,7 @@ I made sure I can hit the API and tested the API by using PostMan and then start
 ```
 user                         program                              API
   |                               |                                   |
-  |       access                  |      request  articles            |
+  |       accesses                |      request  articles            |
   | ----------------------------->|---------------------------------->|
   |      shows articles           |      responds with article        |
   |<------------------------------|<----------------------------------|
@@ -70,4 +70,4 @@ I would like to be navigated to a page with the search-results
 * Cypress
 * Heroku for deployment
 
-###
+### 
