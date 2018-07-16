@@ -30,3 +30,9 @@ describe("should display today's headlines", function() {
     cy.visit('https://headlines-financial-times.herokuapp.com/')
   })
 })
+
+describe("should display today's headlines", function() {
+  it("finds content 'Trump'", function() {
+    cy.visit('https://headlines-financial-times.herokuapp.com/')
+  })
+})
