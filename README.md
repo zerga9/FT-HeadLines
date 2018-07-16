@@ -31,6 +31,7 @@ user                         program                              API
 
 * Clone this repository
 * Run ```npm install``` to install the dependencies
+* Make a .env file to store your Api key in a variable and call it FT_API_KEY like so: ```FT_API_KEY = Your apiKey```
 * Run ```npm start``` and go to localhost:3000 in your favorite browser
 * To see tests run Cypress in the terminal with ```./node_modules/.bin/cypress open```
 and go to integration/simple_spec file to see the tests.
