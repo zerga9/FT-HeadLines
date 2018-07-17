@@ -52,14 +52,14 @@ I would like to click and be directed to the whole article
 
 ```
 As a User
-So I can search for a headLines
+So I can search for headLines
 I would like to submit a keyword
 ```
 
 ```
 As a User
 So I can see all the headlines containing my submitted keyword
-I would like to be navigated to a page with the search-results
+I would like to be navigated to the search-results
 ```
 
 ### Technologies
