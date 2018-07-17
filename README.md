@@ -41,7 +41,7 @@ and go to integration/simple_spec file to see the tests.
 ```
 As a User
 So I can see which headlines the FT has
-I would like to all of them on one page
+I would like to have all of them on one page
 ```
 
 ```
