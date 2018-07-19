@@ -10,16 +10,15 @@ router.get('/search', (req,res) => {
     let articles = response.results[0].results;
       if (articles === undefined){
         res.render('error')
-      } else{
-
+      } else {
       res.render('index', {
         title: 'FT HeadLines',
         articles: articles,
       });
-
     }
-
   })
 });
+
+
 
 module.exports = router;

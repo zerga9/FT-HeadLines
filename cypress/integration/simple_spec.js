@@ -12,11 +12,11 @@ describe('Visting homepage', function() {
 
 
 describe('Homepage got right content', function() {
-  it('finds the content "Theresa May "', function() {
-    cy.visit('https://headlines-financial-times.herokuapp.com/')
-    cy.contains('Theresa May')
-  });
-});
+    it("finds content 'banks'", function() {
+      cy.visit('https://headlines-financial-times.herokuapp.com/')
+      cy.contains('banks')
+    })
+  })
 
 describe('search function', function() {
   it('finds search icon', function() {
@@ -49,14 +49,14 @@ describe('Financial Times', function () {
 
 describe('Search', function(){
   it('can search for keywords', function() {
-    cy.visit('https://headlines-financial-times.herokuapp.com/search?search=morocco')
+    cy.visit('https://headlines-financial-times.herokuapp.com/search?q=morocco')
     cy.contains('Morocco')
   });
 });
 
 describe('Search', function(){
   it('can search for keywords', function() {
-    cy.visit('https://headlines-financial-times.herokuapp.com/search?search=dogs')
+    cy.visit('https://headlines-financial-times.herokuapp.com/search?q=dogs')
     cy.contains('dogs')
   });
 });

@@ -15,6 +15,7 @@ router.get('/', (req, res) => {
         articles: articles,
       });
   })
+  
 });
 
 module.exports = router;
