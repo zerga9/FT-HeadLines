@@ -6,7 +6,7 @@ const apiActions = {};
 
 apiActions.fetchSearch = req => {
 
-  const qs = req && req.query && req.query.search ? req.query.search : '';
+  const qs = req && req.query && req.query.q ? req.query.q : '';
 
   return {
     url: apiUrl,
