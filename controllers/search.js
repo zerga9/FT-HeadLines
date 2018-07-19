@@ -6,8 +6,8 @@ const apiActions = require('../api/index');
 
 router.get('/search', (req,res) => {
   request(apiActions.fetchSearch(req))
-    .then(function(response) {
-      let articles = response.results[0].results;
+  .then(response => {
+    let articles = response.results[0].results;
       if (articles === undefined){
         res.render('error')
       } else{
@@ -16,7 +16,9 @@ router.get('/search', (req,res) => {
         title: 'FT HeadLines',
         articles: articles,
       });
+
     }
+
   })
 });
 
