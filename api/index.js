@@ -3,7 +3,6 @@ const apiUrl =
 
 const apiActions = {};
 
-
 apiActions.fetchSearch = req => {
 
   const qs = req && req.query && req.query.q ? req.query.q : '';

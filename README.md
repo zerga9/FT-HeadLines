@@ -9,13 +9,13 @@ I made sure I can hit the API and tested the API by using PostMan and then start
 
 * Diagrammed out how the program should interact with the user and the API.
 ```
-user                         program                              API
-  |                               |                                   |
-  |       accesses                |      request  articles            |
-  | ----------------------------->|---------------------------------->|
-  |      shows articles           |      responds with article        |
-  |<------------------------------|<----------------------------------|
-  |                               |                                   |
+user              program                       API
+  |                  |                           |
+  |                  |                           |
+  | -----accesses--->|--asks for articles------->|
+  |                  |                           |
+  |<--shows articles-|<--responds with article---|
+  |                  |                           |
 ```
 
 * Lay-out the basic front-end to make sure the basic styling and elements are in place.
