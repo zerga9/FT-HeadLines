@@ -77,6 +77,5 @@ I would like to be navigated to the search-results
 
 - Pagination
 - Local Storage
-- Get the favicon icon working!
 - More research in testing api
 - Use SASS
